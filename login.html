@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="defenition"
+      content="receitas,ingredientes,forum,culinaria,login"
+    />
+    <title>Login - Heróis na Cozinha</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="images/icon.jpg" />
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <div id="logo">
+          <a href="index.html"><img src="images/logo.png" alt="Image" /></a>
+        </div>
+        <div id="menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="receitas.php">Receitas</a>
+            </li>
+            <li>
+              <a href="comunidade.html">Comunidade</a>
+            </li>
+            <li>
+              <a href="forum.html">Forum</a>
+            </li>
+            <li>
+              <a href="recursos.html">Recursos</a>
+            </li>
+            <li>
+              <a href="perfil.html">Perfil</a>
+            </li>
+          </ul>
+        </div>
+        <div id="figure">
+          <img src="images/headline-home.jpg" alt="Image" />
+          <span id="home"
+            >Maecenas pharetra hendrerit eros sed laoreet.
+            <a href="index.html">Find out why.</a>
+          </span>
+        </div>
+        <div id="searchbar">
+          <input type="text" placeholder="Search.." />
+        </div>
+        <div id="perfil">
+          <a href="./login.html" target="_blank" id="logsingin"
+            >Login/Singin
+          </a>
+        </div>
+      </div>
+
+      <div id="body">
+        <div id="content-login" class="content">
+          <div id="title-login" class="title">
+            <h1>Registo</h1>
+          </div>
+
+          <form action="processarlogin.php" method="POST">
+            <label for="email"></label>
+            <input
+              id="emailUtilizador"
+              name="emailUtilizador"
+              placeholder=" Email "
+              type="text"
+              required
+              class="Validar"
+              autocomplete="off"
+            />
+            <br /><br /><br />
+            <label for="password"></label>
+            <input
+              id="password"
+              name="password"
+              placeholder="Password"
+              type="password"
+              required
+              class="Validar"
+              autocomplete="off"
+            />
+
+            <input type="submit" value="Login" />
+          </form>
+
+          <a href="registo.html">Esqueceu-se da password?</a>
+
+          <a href="https://meta.wikimedia.org/wiki/Privacy_policy/pt-br"
+            >Política da privacidade</a
+          >
+
+          <h3>Já tem conta?</h3>
+          <a href="registo.html">Registar-me</a>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="fotlogo">
+          <a href="index.html"
+            ><img src="images/logo.png" alt="Image" />
+            <p class="footnote">
+              &copy; Team 1 Leiria IEFP JAVA 2022.<br />All Rights Reserved.
+            </p></a
+          >
+        </div>
+        <div id="section">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li class="current">
+              <a href="receitas.php">Receitas</a>
+            </li>
+            <li>
+              <a href="comunidade.html">Comunidade</a>
+            </li>
+            <li>
+              <a href="forum.html">Forum</a>
+            </li>
+            <li>
+              <a href="perfil.html">Perfil</a>
+            </li>
+          </ul>
+        </div>
+        <div id="connect">
+          <a
+            href="http://freewebsitetemplates.com/go/facebook/"
+            target="_blank"
+            id="facebook"
+            >Facebook</a
+          >
+          <a
+            href="http://freewebsitetemplates.com/go/twitter/"
+            target="_blank"
+            id="twitter"
+            >Twitter</a
+          >
+          <a
+            href="http://freewebsitetemplates.com/go/googleplus/"
+            target="_blank"
+            id="googleplus"
+            >Google+</a
+          >
+          <a href="index.html" id="rss">RSS</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
